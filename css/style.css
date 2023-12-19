@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  /* conteudo principal */
+  
+  body {
+    align-items: center;
+    background-color: #f0f8ff;
+  }
+  
+  #main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* div form */
+  
+  #form_user {
+    background-color: plum;
+    width: 300px;
+    height: 400px;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgb(191, 187, 187) 3px 3px 3px;
+  }
+  
+  #form_user label {
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+  
+  #form_user input {
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-top: 5px;
+  }
+  
+   #btn {
+    padding: 15px 30px;
+    margin: 50px;
+    background-color: rgb(173, 243, 173);
+    box-shadow: rgb(143, 141, 141) 3px 3px 3px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+  
+  #form_user #btn:hover {
+    background-color: rgb(138, 238, 138);
+  }
+  
+  /* mensagem imc */
+  #imc_user {
+    background-color: plum;
+    width: 300px;
+    height: 400px;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    box-shadow: rgb(191, 187, 187) 3px 3px 3px;
+  }
+  
+  #imc_user #show_imc {
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 45px;
+    text-shadow: rgb(75, 73, 73) 1px 1px 5px ;
+  }
+  
+  #imc_user #mensage_imc {
+    text-align: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+  }
+
+  #imc_user #loren_imc {
+    display: none;
+  }
+
+  #imc_user #loren_imc.show {
+    display: flex !important;
+  }
+  
+  #imc_user #loren_imc {
+    text-align: center;
+    padding: 15px;
+  }
+
+  
+  #imc_user #container_loren_imc {
+    background-color: #f1efef;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(143, 141, 141) 3px 3px 3px;
+  }
+
+  /* seleção de cores da div  */
+  #imc_user #container_loren_imc .magreza {
+    background-color: #f3f3aa;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(143, 141, 141) 3px 3px 3px;
+  }
+
+  #imc_user #container_loren_imc .normal {
+    background-color: #b5f8b5;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(143, 141, 141) 3px 3px 3px;
+  }
+
+  #imc_user #container_loren_imc .sobrepeso {
+    background-color: #fa8f8f;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(6, 6, 6, 0.144) 3px 3px 3px;
+  }
+
+  #imc_user #container_loren_imc .obesidade {
+    background-color: #f86464;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(6, 6, 6, 0.144) 3px 3px 3px;
+  }
+
+  #imc_user #container_loren_imc 
+  .obesidade_grave {
+    background-color: #f64444;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(6, 6, 6, 0.144) 3px 3px 3px;
+  }
+
+/* footer */
+footer {
+    font-style: italic;
+    font-size: 1rem;
+    text-align: center;
+}
+
