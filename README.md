@@ -39,4 +39,9 @@ Depois disso, basta dar o comando git clone no terminal com a URL copiada:
 https://maria18-ai.github.io/calculadora_imc/
 ```
 
+## Projeto feito por:
+Giovanna Celia 
+Penelope Cristine 
+Maria Eduarda Teodoro 
+
 Feito com ❤ por Maria
